@@ -1,0 +1,7 @@
+{
+  "name": "AppGymReserva",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
