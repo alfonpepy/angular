@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'reserva',
+    loadChildren: () => import('./reserva/reserva.module').then( m => m.ReservaPageModule)
+  },
 ];
 
 @NgModule({
